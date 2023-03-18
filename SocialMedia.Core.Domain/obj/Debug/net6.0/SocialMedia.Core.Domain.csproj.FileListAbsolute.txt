@@ -1,0 +1,12 @@
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\bin\Debug\net6.0\SocialMedia.Core.Domain.deps.json
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\bin\Debug\net6.0\SocialMedia.Core.Domain.dll
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\bin\Debug\net6.0\SocialMedia.Core.Domain.pdb
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\SocialMedia.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\SocialMedia.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\SocialMedia.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\SocialMedia.Core.Domain.AssemblyInfo.cs
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\SocialMedia.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\SocialMedia.Core.Domain.dll
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\refint\SocialMedia.Core.Domain.dll
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\SocialMedia.Core.Domain.pdb
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Core.Domain\obj\Debug\net6.0\ref\SocialMedia.Core.Domain.dll

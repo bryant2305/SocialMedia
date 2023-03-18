@@ -1,0 +1,55 @@
+﻿@using SocialMedia.Core.Application.ViewModels.Comentarios
+@using SocialMedia.Core.Application.ViewModels.Publicaciones;
+@model SavePublicacionesViewModel
+@{
+    ViewData["Title"] = "Inicio";
+    List<PublicacionesViewModel> publi = ViewBag.UserPost;    
+}
+<div class="text-center row ">
+     <div class="card-body ">
+        <div class="row mb-3">
+            <div class="col-3 offset-9">
+                <a asp-controller="Home" asp-action="Create" class="btn btn-outline-success">Crear nueva publicacion</a>
+            </div>
+        </div>
+        <h4 style="color:cornflowerblue">BryantNetwork</h4>
+        @foreach (PublicacionesViewModel item in publi)
+        {
+                <div class="col-4">
+                    <div class="card shadow-sm">
+                            <h6 class="card-title">Publicado el :@item.Created</h6>
+                    <img class="bd-placeholder-img card-img-top img-product-size" src="@item.ImgUrl" />
+
+                        <div class="card-body">
+
+                            <p class="card-text">@item.Descripcion</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a asp-controller="Home" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info">Editar publicacion</a>
+                                </div>
+                            </div>
+                        @foreach (ComentariosViewModel j in @item.Comentarios)
+                        {
+                         <div class="text-center mb-2">
+                        <img class="bd-placeholder-img d-inline " src="@j.User.Photo" width="40" height="40"/>
+                        <p class="card-text d-inline text-sucess fw-bold"> @j.User.Username </p>
+                        <p class="card-text d-inline"> @j.Descripcion </p>
+                        </div>
+                    }
+                        </div>
+                
+                 <form method="post" asp-controller="Home" asp-action="AddComment">
+                               
+                       <div class="">
+                        <input asp-for="Idpost" value="@item.Id" hidden />  
+                     <input asp-for="NuevoComentario" class="form-control w-75 d-inline ms-3 mb-2" required placeholder="Agregar un comentario..." />
+                          <button type="submit" class="btn btn-primary btn-sm ">Comentar</button>
+
+                         </div>
+                   
+                  </form>
+                
+                     </div>
+        </div>
+            
+    }

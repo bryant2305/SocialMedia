@@ -1,0 +1,17 @@
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\bin\Debug\net6.0\SocialMedia.Infrastructure.Shared.deps.json
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\bin\Debug\net6.0\SocialMedia.Infrastructure.Shared.dll
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\bin\Debug\net6.0\SocialMedia.Infrastructure.Shared.pdb
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\bin\Debug\net6.0\SocialMedia.Core.Application.dll
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\bin\Debug\net6.0\SocialMedia.Core.Domain.dll
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\bin\Debug\net6.0\SocialMedia.Core.Application.pdb
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\bin\Debug\net6.0\SocialMedia.Core.Domain.pdb
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\SocialMedia.Infrastructure.Shared.csproj.AssemblyReference.cache
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\SocialMedia.Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\SocialMedia.Infrastructure.Shared.AssemblyInfoInputs.cache
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\SocialMedia.Infrastructure.Shared.AssemblyInfo.cs
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\SocialMedia.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\SocialMedia.Infrastructure.Shared.csproj.CopyComplete
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\SocialMedia.Infrastructure.Shared.dll
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\refint\SocialMedia.Infrastructure.Shared.dll
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\SocialMedia.Infrastructure.Shared.pdb
+C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia.Infrastructure.Shared\obj\Debug\net6.0\ref\SocialMedia.Infrastructure.Shared.dll

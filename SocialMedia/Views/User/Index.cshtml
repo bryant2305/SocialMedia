@@ -1,0 +1,30 @@
+﻿ @using SocialMedia.Core.Application.ViewModels.User
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+<h4 style="color:cornflowerblue">BryantNetwork</h4>
+<div class="row mt-5">
+    <div class="col-6 offset-3">
+        <div class="card shadow-sm" >
+            <div class="card-body">
+                @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+               
+                <form method="post" asp-controller="User" asp-action="Index">
+                    <div class="mb-3">
+                        <label asp-for="Username" class="form-label">Correo del usuario</label>
+                        <input class="form-control" asp-for="Username">
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label">Contraseña</label>
+                        <input class="form-control" asp-for="Password">                        
+                    </div>
+
+                    <button type="submit" class="btn btn-primary float-end">Iniciar sección</button>
+                     <a asp-controller="User" asp-action="Olvide" class="btn btn-warning float-end me-2">Olvide mi contraseña</a>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+﻿@using SocialMedia.Core.Application.ViewModels.Friends;
+
+@model SaveFriendsViewModel
+@{
+    String envio = ViewBag.msj;
+}
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-dark text-light">
+                    <h4 style="text-align: center;">Agregar nuevo amigo</h4>
+                </div>
+                <div class="card-body">
+
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                    <form method="post" asp-controller="Amigos" asp-action="agregar">
+
+                        <div class="mb-3">
+                            @if (envio == null)
+                            {
+                                <label class="form-label text-warning"> @envio </label>
+                            }
+                            <label asp-for="Friend" class="form-label">Nombre: </label>
+                            <input asp-for="Friend" class="form-control" required />
+                            <span asp-validation-for="Friend" class="text-danger"></span>
+                        </div>
+
+                         <div class="mb-3 text-center">
+                        <button type="submit" class="btn btn-primary">Agregar</button>
+                        <a asp-controller="Amigos" asp-action="Index" class="btn btn-secondary">Volver atras</a>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

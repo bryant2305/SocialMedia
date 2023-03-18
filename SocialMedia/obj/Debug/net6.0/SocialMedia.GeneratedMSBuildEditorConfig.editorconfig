@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SocialMedia
+build_property.RootNamespace = SocialMedia
+build_property.ProjectDir = C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\bryan\OneDrive\Documents\Visual Studio 2022\SocialMedia\SocialMedia
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Amigos/AddFriend.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1pZ29zXEFkZEZyaWVuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Amigos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1pZ29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Amigos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1pZ29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Home/SavePublicacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYXZlUHVibGljYWNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Home/SinPermiso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaW5QZXJtaXNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/User/Olvide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxPbHZpZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/User/SinPermiso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaW5QZXJtaXNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bryan/OneDrive/Documents/Visual Studio 2022/SocialMedia/SocialMedia/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cwonxuylsx

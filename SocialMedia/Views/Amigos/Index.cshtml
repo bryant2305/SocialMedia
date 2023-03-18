@@ -1,0 +1,87 @@
+﻿@using SocialMedia.Core.Application.ViewModels.Comentarios
+@using SocialMedia.Core.Application.ViewModels.Publicaciones;
+@using SocialMedia.Core.Application.ViewModels.Friends;
+@model SavePublicacionesViewModel
+@{
+    ViewData["Title"] = "Amigos";
+    List<PublicacionesViewModel> Views = ViewBag.friendpost;
+}
+     <div class="row">
+
+<div class="col-3" >
+            <div >
+                <div>
+                    <h4>Amigos en el sistema</h4>
+                </div>
+                <div class="card-body">
+                <form asp-controller="Amigos" asp-action="AddFriend">
+                        @if (ViewBag.amigos != null)
+                    {
+                        @foreach (String i in ViewBag.amigos)
+                        {
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <label class="form-check-label"> @i </label>
+                                </div>
+                            </div>
+                        }
+                    }
+                    <button type="submit" class="btn btn-primary w-30 ms-5">Agregar mas amigos</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+<div class="container col-9">
+
+    <div class="row" >
+            @if (Views == null || Views.Count() == 0)
+    {
+        <h6>No hay publicaciones de amigos o actualize la pagina dandole click a ¨Amigos¨ </h6>
+    }else{
+
+           @foreach (PublicacionesViewModel item in Views)
+      {
+        <div class=" d-flex justify-content-center">
+
+            <div class="card w-50 mb-3">
+
+                <div class="card-body">
+                                <h8 class="card-title"> publicado el:@item.Created</h8>
+                                <br>
+                                <h5 class="card-title">@item.User.Name</h5>
+                    <div>
+                        <p class="card-text">@item.Descripcion</p>
+                    </div>
+                </div>
+                <img class="bd-placeholder-img mb-2" src="@item.ImgUrl" />
+                            @if (@item.Comentarios != null)
+                {
+                                @foreach (ComentariosViewModel P in @item.Comentarios)
+                                {
+                        <div class="text-center mb-2">
+                                    <img class="bd-placeholder-img d-inline " src="@P.User.Photo" width="40" height="40" />
+                                    <p class="card-text d-inline text-primary fw-bold"> @P.User.Username </p>
+                                     <p class="card-text d-inline"> @P.Descripcion </p>
+                        </div>
+                    }
+
+                }
+                <form method="post" asp-controller="Home" asp-action="AddComment">
+
+                    <div class="">
+                        <input asp-for="Idpost" value="@item.Id" hidden />
+                        <input asp-for="NuevoComentario" class="form-control w-75 d-inline ms-3 mb-2" required placeholder="Agregar un comentario..." />
+                        <button type="submit" class="btn btn-primary btn-sm ">Comentar</button>
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+                }}
+
+</div>
+</div>
+
+     </div>

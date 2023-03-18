@@ -1,0 +1,38 @@
+﻿@using SocialMedia.Core.Application.ViewModels.User;
+@model OlvideContraViewModel
+@{    
+    ViewData["Title"] = "Forgot Password";    
+}
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-dark text-light">
+                    <h4>Recuperar Contraseña</h4>
+                </div>
+                <div class="card-body">
+                
+                    <form method="post" asp-controller="User" asp-action="Olvide">
+
+                        <div class="mb-3">
+                            <label asp-for="Username" class="form-label">digite el usuario al que quiere restablecer contraseña </label>
+                            <input asp-for="Username" class="form-control" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                        
+                         <div class="mb-3 text-center">
+                        <button type="submit" class="btn btn-primary">Recuperar</button>
+                        <a asp-controller="User" asp-action="Index" class="btn btn-secondary">Volver atras</a>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
